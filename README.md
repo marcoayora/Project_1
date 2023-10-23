@@ -6,8 +6,11 @@ In this first project i have learned and put more into practice on how to analys
 After looking at all the data i asked myself this 4 questions:
 
 1.Which humman gender is tastier for sharks?
+
 2.Have sharks entered a pro-vegan movement?
+
 3.Do sharks procrastinate their lunchtime?
+
 4.Do sharks like to bully humans?
 
 ## Project Description:
@@ -16,19 +19,23 @@ After looking at all the data i asked myself this 4 questions:
  Then proceeding to the Time column using regex i extracted only the values i wanted which where only the proper and exact times. Meaning that i excluded the time ranges and type descriptions like evening and afternoon. I then droped all the missing values of the row time.
 
 For the question.
-##### 1.Which humman gender is tastier for sharks?
+### 1.Which human gender is tastier for sharks?
  including all into a function i mention the needed column in this case the 'sex' one and create a plot bar graph. After first visualising the data we see it was not completly clean. There are two answers that had to be cleaned 'M' and 'lli'. As those two answers are real attacks that we just don't know we can either catalog them as unknow or take them out. In this case because there is only two and that won't make
  much difference to the end results we will eliminate them.
  I created a new list then only selecting what  i wanted to visualize the values of the column that are also in my list(Male and female). I then take out the missing values and finally plot a pie chart were i can see the clear difference, were 85.9% of  attacks were towards Males.
+![Alt text](df2f8bdb-a0c5-455d-b3a1-93664cef0d13.png)
 
-##### 2.Have sharks entered a pro-vegan movement?
+### 2.Have sharks entered a pro-vegan movement?
  For my second question function i decide to just in case only use years before 2023 in case there were some worng values in the column.  Then i only had to plot my line graph.
+![Alt text](62aa3ee8-c29f-40fc-9227-7f722961099b.png)
 
-##### 3.Do sharks procrastinate their lunchtime?
+### 3.Do sharks procrastinate their lunchtime?
  In the third question i defined a  new column with only the values i wanted from the time column. Then to group by the hours of the x axis i used the value counts method. To finish i plotted the propper line graph.
+![Alt text](f078b678-d745-4182-b1d0-03e18076f2a6.png)
 
-##### 4.Do sharks like to bully humans?
+### 4.Do sharks like to bully humans?
  In this last question i though i could directly plot the bar chart graph but then realised that there were extra values i did not wanted so i had to add an extra function where i cleaned and only kept the Y and N values of the column. After this i could finally plot my bar chart graph.
+![Alt text](a2986f23-b5d1-4fdb-a02b-763e19edf7db.png)
 
 ## Hipothesis for each question:
 
