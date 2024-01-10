@@ -38,7 +38,7 @@ For the question.
  In this last question i though i could directly plot the bar chart graph but then realised that there were extra values i did not wanted so i had to add an extra function where i cleaned and only kept the Y and N values of the column. After this i could finally plot my bar chart graph.
 ![!\[Alt text\](a2986f23-b5d1-4fdb-a02b-763e19edf7db.png)](images/fatalities.png)
 
-## Hipothesis for each question:
+## Results:
 
 1.For some reason we do not know, the attacks to sharks are extremely higher to the male part. While their counter-part only form part of the 14.1% of the shark attacks produced, the male have an          unfortunately 85.9% participation.
  So do really sharks prefer to end with the patriarchy or is it that in terms of food they think of male and female as equals?
